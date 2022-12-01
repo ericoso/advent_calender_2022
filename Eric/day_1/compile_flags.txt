@@ -1,4 +1,4 @@
--IC:\development\extra\advent_callender\day_1
+-IC:\development\advent_callender\advent_calender_2022\Eric\day_1
 -IC:\MinGW64\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++
 -IC:\MinGW64\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\x86_64-w64-mingw32
 -IC:\MinGW64\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\backward
