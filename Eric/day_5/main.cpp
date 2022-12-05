@@ -6,10 +6,6 @@
 
 using namespace std;
 
-
-
-
-
 int main(){
     
     //to lazy to purge the cube's and extract the data
@@ -61,6 +57,5 @@ int main(){
 for (int i = 0; i < input_arr.size(); i++){
     cout << input_arr[i].back();
 } 
-
     return 0;
 }
