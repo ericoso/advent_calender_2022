@@ -1,1 +1,2 @@
+C:\development\advent_callender\advent_calender_2022\Eric\day_2\main.cpp
 C:\development\advent_callender\advent_calender_2022\Eric\day_1\main.cpp

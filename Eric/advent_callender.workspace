@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="advent_callender" Database="" Version="10000">
-  <Project Name="day_1" Path="day_1/day_1.project" Active="Yes"/>
+  <Project Name="day_1" Path="day_1/day_1.project" Active="No"/>
+  <Project Name="day_2" Path="day_2/day_2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="day_1" ConfigName="Debug"/>
       <Project Name="day_1" ConfigName="Debug"/>
+      <Project Name="day_2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="day_1" ConfigName="Release"/>
       <Project Name="day_1" ConfigName="Release"/>
+      <Project Name="day_2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
