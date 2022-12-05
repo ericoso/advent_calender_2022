@@ -55,8 +55,6 @@ int main(){
     }
     
     cout << endl << endl << t_val;
-    
-    
     return 0;
     
 }
