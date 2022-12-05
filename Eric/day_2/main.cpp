@@ -8,7 +8,7 @@ using namespace std;
 int main(){
 
 //Starting file & checking file
-    ifstream in_file;
+    ifstream in_file;clTabCtrl
     in_file.open("guild.txt");
     
     if (!in_file) {
@@ -21,8 +21,7 @@ int main(){
     vector<char> outcomes_c{};
     
     
-    while (getline(in_file, line)) {
-        inputs_c.push_back(line[0]);
+    while (getline(in_file,back(line[0]);
         outcomes_c.push_back(line[2]);
     }
     
@@ -94,7 +93,7 @@ int main(){
         t_points += (responses_i.at(i));
     }
     
-    cout << t_points;
+    cout << endl << endl << t_points;
 
  return 0;    
 }
