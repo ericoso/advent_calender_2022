@@ -1,7 +1,9 @@
-C:\development\advent_callender\advent_calender_2022\Eric\day_5\input.txt
+C:\development\advent_callender\advent_calender_2022\Eric\day_6\input.txt
+C:\development\advent_callender\advent_calender_2022\Eric\day_6\main.cpp
 C:\development\advent_callender\advent_calender_2022\Eric\day_5\main.cpp
+C:\development\advent_callender\advent_calender_2022\Eric\day_5\input.txt
 C:\development\advent_callender\advent_calender_2022\Eric\day_3\main.cpp
-C:\development\advent_callender\advent_calender_2022\Eric\day_4\input.txt
 C:\development\advent_callender\advent_calender_2022\Eric\day_4\main.cpp
+C:\development\advent_callender\advent_calender_2022\Eric\day_4\input.txt
 C:\development\advent_callender\advent_calender_2022\Eric\day_2\main.cpp
 C:\development\advent_callender\advent_calender_2022\Eric\day_1\main.cpp

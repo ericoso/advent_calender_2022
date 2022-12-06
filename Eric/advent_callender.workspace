@@ -4,7 +4,8 @@
   <Project Name="day_2" Path="day_2/day_2.project" Active="No"/>
   <Project Name="day_3" Path="day_3/day_3.project" Active="No"/>
   <Project Name="day_4" Path="day_4/day_4.project" Active="No"/>
-  <Project Name="day_5" Path="day_5/day_5.project" Active="Yes"/>
+  <Project Name="day_5" Path="day_5/day_5.project" Active="No"/>
+  <Project Name="day_6" Path="day_6/day_6.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -14,6 +15,7 @@
       <Project Name="day_3" ConfigName="Debug"/>
       <Project Name="day_4" ConfigName="Debug"/>
       <Project Name="day_5" ConfigName="Debug"/>
+      <Project Name="day_6" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -23,6 +25,7 @@
       <Project Name="day_3" ConfigName="Release"/>
       <Project Name="day_4" ConfigName="Release"/>
       <Project Name="day_5" ConfigName="Release"/>
+      <Project Name="day_6" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

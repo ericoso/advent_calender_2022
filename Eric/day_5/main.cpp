@@ -6,10 +6,6 @@
 
 using namespace std;
 
-
-
-
-
 int main(){
     
     //to lazy to purge the cube's and extract the data
