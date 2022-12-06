@@ -20,17 +20,15 @@ int main(){
     getline(in_file, line);
     int i = 0;
     
-    while (true){
-        
+    while (true){    
         cout << i + 1 << ") ";
-        string temp = line.substr(0 + i, 14);
+        string temp = line.substr(i, 14);
         if (is_unique(temp)){
             cout << i + 14 << endl;
             break;
         }
         i++;
     }    
-
     return 0;   
 }
 
