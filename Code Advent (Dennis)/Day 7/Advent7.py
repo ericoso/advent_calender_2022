@@ -70,5 +70,5 @@ for directory in paths:
 #  ------------------------------------------------ ANSWERS --------------------------------------------------------
 
 
-print("The sum of the sizes of all directories with a size smaller than 100.000 is: " + str(size_part_1))
+print("The sum of the sizes of all directories with a size smaller than 100000 is: " + str(size_part_1))
 print("The size of the smallest directory that can be deleted to free up enough space is: " + str(size_part_2))
