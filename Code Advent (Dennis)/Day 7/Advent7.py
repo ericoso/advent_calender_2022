@@ -1,4 +1,4 @@
-input_file = open("advent7.txt", "r")
+input_file = open("Advent7.txt", "r")
 lines = input_file.readlines()
 size_part_1 = 0
 size_part_2 = 70000000
@@ -22,7 +22,7 @@ for line in lines:
         else:
             #  If we go up a directory, remove the lastly added directory (i.e. "go up a depth level")
             current_directory.pop()
-        #  Create a path to the directory we just found in the if-statement (to determine depth levels later)
+        #  Create a path to the directory we just found in the if-statement
         paths.setdefault('/'.join(current_directory).replace("//", "/"), 0)
 
         #  Find the lines in which we print the current structure of the directory (to ignore to make the catch-all else statement work lol)
