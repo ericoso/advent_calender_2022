@@ -9,8 +9,8 @@ with open('day7Input.txt', 'r') as f:
             path.pop()
         elif line[:4] == '$ cd':
             path.append(line.strip()[5:])
-        elif line[0].isdigit():lit()
-            size, _ = line.sp
+        elif line[0].isdigit():
+            size, _ = line.split()
             for i in range(len(path)):
                 folders['/'.join(path[:i + 1])] += int(size)
 
