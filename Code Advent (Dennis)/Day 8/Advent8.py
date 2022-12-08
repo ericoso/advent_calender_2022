@@ -66,7 +66,7 @@ def determine_whether_visible(forest, x, y):
 
             #  When we find a tree that is either as large or larger, stop going in this direction
             if forest[y + y_direction][x + x_direction] >= tree_height:
-                break  # Note to self: this break breaks the while loop of line 58, thus also not changing "visible_from_outside" to True in the if-statement of line 72
+                break  # Note to self: this break breaks the while loop of line 62, thus also not changing "visible_from_outside" to True in the if-statement of line 76
 
             #  Go to the next step in the direction (i.e. next tree in the row/column)
             x += x_direction
