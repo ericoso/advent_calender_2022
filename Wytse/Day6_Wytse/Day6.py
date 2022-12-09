@@ -18,7 +18,7 @@ for letter in sLines:
     count += 1
     print(count)
     # if len(buffer) == 4:
-    #     print(count)
+    #     print(collomcount)
     #     break
 
     if len(buffer) == 14:
