@@ -12,11 +12,11 @@ input_file = open("Advent10.txt", "r")
 lines = input_file.readlines()
 
 
-#  Function for drawing the # symbol when needed
-def draw(register, cycles, crt_board):
-    current_position = (cycles - 1) % 40  # Modulo 40 to account for the different rows
+#  Draw the # symbol when the sprite overlaps with the to-be-drawn pixel
+def draw(register, cycle, crt_board):
+    current_position = (cycle - 1) % 40  # Modulo 40 to account for the different rows
     if current_position in {register - 1, register, register + 1}:
-        crt_board[cycles] = "#"
+        crt_board[cycle - 1] = "#"
 
 
 for line in lines:
