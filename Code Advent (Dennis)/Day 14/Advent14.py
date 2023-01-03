@@ -10,10 +10,11 @@ def create_rock_map(data):
     for line in data.split("\n"):
         points = [tuple(map(int, p.split(","))) for p in line.split(" -> ")]
         for i in range(len(points) - 1):
-            p1, p2 = points[i], points[i + 1]
-            xr = range(min(p1[0], p2[0]), max(p1[0], p2[0]) + 1)
-            yr = range(min(p1[1], p2[1]), max(p1[1], p2[1]) + 1)
-            rocks.update({(x, y) for x in xr for y in yr})
+            p1 = points[i]
+            p2 = points[i + 1]
+            rocks_x = range(min(p1[0], p2[0]), max(p1[0], p2[0]) + 1)
+            rocks_y = range(min(p1[1], p2[1]), max(p1[1], p2[1]) + 1)
+            rocks.update({(x, y) for x in rocks_x for y in rocks_y})
 
     return rocks
 
